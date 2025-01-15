@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-button {
+    @apply m-12 border-4 border-blue-600 bg-gray-600 text-white rounded-md transition-all hover:scale-110  hover:bg-black duration-700 ease-in-out;
+  }
+
+.user-card{
+  @apply flex flex-row gap-3 m-2 h-[250px] bg-pink-600;
+}
+
+.user-each-card{
+  @apply basis-1/2 bg-black border border-2 border-green-600 text-white h-[80px] m-3;
+}
