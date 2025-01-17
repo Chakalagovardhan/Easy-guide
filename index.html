@@ -10,7 +10,7 @@
 
 <body>
     <!-- nav bar -->
-    <div class=" bg-[#7c6cd9] flex sticky top-0 justify-between border-b-2 border-b-white rounded-b-lg">
+    <div class=" bg-[#7c6cd9] flex sticky top-0 justify-between border-b-2 border-b-white rounded-b-lg z-10">
         <div >
           <ul class=" flex justify-start mx-3">
             <li class="text-white  p-2 m-5 hover:bg-zinc-700  rounded font-bold">Hello</li>
@@ -46,15 +46,87 @@
         </div>
     </div>
 
-    <button class="transition ease-in-out duration-300 delay-500 border border-blue-600 p-3">Hover me </button>
-    <button class="transition ease-in-out duration-300 delay-500 border border-blue-600 p-3 hover:bg-blue-600 hover:text-white">
-  Hover me
-</button>
-<button class="transition transform ease-in-out duration-300 hover:scale-110 border border-blue-600 p-3">
-  Hover me
-</button>
+    
+
+<!-- seminars -->
+<div class="w-full h-[300px] flex flex-row gap-3 justify-center overflow-hidden">
+    <div class="h-full w-[300px] relative">
+        <div class="h-[180px] w-[180px]  bg-[#7a6ad7] rounded-lg absolute top-[55px] left-[55px] flex flex-col justify-center items-center p-4 overflow-hidden gap-1">
+            <h4 class="text-white">Events</h4>
+            <p class="text-white text-pretty text-xs ">There are upcoming live events are coming up ...</p>
+            <button class=" bg-[#7c6cd9] p-2 rounded-lg text-xs text-black hover:bg-slate-200  ">Readmore</button>
+        </div>
+        <div class="h-[60px]  bg-[#f1f0fe] w-[60px] rounded-full absolute top-[40px] right-[40px] flex justify-center items-center">
+            <img src="./2745925921640837503-128.png" alt="Hello" class=" h-[45px] w-[45px] ">
+        </div>
+    </div>
+    
+    <div class="h-full w-[300px] relative">
+        <div class="h-[180px] w-[180px]  bg-[#7a6ad7] rounded-lg absolute top-[55px] left-[55px] flex flex-col justify-center items-center p-4 overflow-hidden gap-1">
+            <h4 class="text-white">Events</h4>
+            <p class="text-white text-pretty text-xs ">There are upcoming live events are coming up ...</p>
+            <button class=" bg-[#7c6cd9] p-2 rounded-lg text-xs text-black hover:bg-slate-200  ">Readmore</button>
+        </div>
+        <div class="h-[60px]  bg-[#f1f0fe] w-[60px] rounded-full absolute top-[40px] right-[40px] flex justify-center items-center">
+            <img src="./2745925921640837503-128.png" alt="Hello" class=" h-[45px] w-[45px] ">
+        </div>
+    </div>
+    
+    
+    <div class="h-full w-[300px] relative">
+        <div class="h-[180px] w-[180px]  bg-[#7a6ad7] rounded-lg absolute top-[55px] left-[55px] flex flex-col justify-center items-center p-4 overflow-hidden gap-1">
+            <h4 class="text-white">Events</h4>
+            <p class="text-white text-pretty text-xs ">There are upcoming live events are coming up ...</p>
+            <button class=" bg-[#7c6cd9] p-2 rounded-lg text-xs text-black hover:bg-slate-200  ">Readmore</button>
+        </div>
+        <div class="h-[60px]  bg-[#f1f0fe] w-[60px] rounded-full absolute top-[40px] right-[40px] flex justify-center items-center">
+            <img src="./2745925921640837503-128.png" alt="Hello" class=" h-[45px] w-[45px] ">
+        </div>
+    </div>
+</div>
 
 
+<!-- conatct us -->
+<div class="w-full h-[400px] relative overflow-hidden">
+
+
+    <div class="absolute w-[calc(100vw-50vw)] h-[300px] bg-[#f1f0fe] rounded-tr-full rounded-br-full top-[40px]"></div>
+    <div class="absolute flex flex-row h-[250px] w-[70vw] top-[59px] left-[8vw]">
+        <div class=" flex-1 flex flex-col p-4 space-y-4 ">
+            <h5 class="text-lg font-bold text-black">Contact Us</h5>
+            <h1 class="text-md font-semibold text-black break-words">Feel free to contact us</h1>
+            <p class="text-xs text-black break-words w-[250px]">
+                Hello, my name is Chakala Govardhan Sai. I am feeling so great to hear about this.
+            </p>
+            <button class="bg-white text-black text-xs h-[50px] w-[200px] rounded-md overflow-hidden relative self-center hover:bg-black hover:text-white">
+                <div class="bg-gray-600 rounded-full absolute h-[40px] w-[40px] top-1 -left-3"></div>
+                50% off <br> Special discount 
+                <div class="bg-gray-600 rounded-full absolute h-[30px] w-[30px] top-3 right-3 flex justify-center items-center">
+                    >
+                </div>
+            </button>
+        </div>
+        <div class="flex-1 ">
+            <form action="" autocomplete="on" class="p-6 shadow-lg bg-[#7c6cd9] rounded-md w-80 space-y-2 m-1">
+                <div class="flex flex-col space-y-1">
+                    <label for="uname" class="text-gray-700 font-medium">Gmail:</label>
+                    <input type="email" id="uname" name="ugmail" class="border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+        
+                <div class="flex flex-col space-y-1">
+                    <label for="mobilenumber" class="text-gray-700 font-medium">Mobile Number</label>
+                    <input type="tel" id="mobilenumber" name="umobilenum" class="border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+        
+                <div class="flex justify-center">
+                    <input type="submit" value="SUBMIT" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-md hover:bg-blue-600 cursor-pointer">
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+ </div>
 
     <div class="flex bg-black place-content-evenly">
         <div class="flex flex-col">
